@@ -1,0 +1,38 @@
+import { IData } from '@/types/index';
+
+export const data: { [key: string]: IData } = {
+  en: {
+    headerLaboratoryBooster: 'Laboratory Booster Time Calculator',
+    headerBuilderBooster: 'Builder Booster Time Calculator',
+    boostDurationLeft: 'Boost duration left :',
+    buildTime: 'Build time',
+    researchTime: 'Research time',
+    laboratory: 'Laboratory',
+    builder: 'Builder',
+    day: 'Days',
+    hours: 'Hours',
+    minutes: 'Minutes',
+    calculate: 'Calculate',
+    resultBoostDurationPt1: 'With a ',
+    resultBoostDurationPt2: ' minutes boost duration, you can finish the job in :',
+    resultBoostDurationLeftPt1: 'You have ',
+    resultBoostDurationLeftPt2: ' boost duration left',
+  },
+  id: {
+    headerLaboratoryBooster: 'Kalkulator Percepatan Laboratorium',
+    headerBuilderBooster: 'Kalkulator Percepatan Tukang',
+    boostDurationLeft: 'Sisa durasi percepatan :',
+    buildTime: 'Waktu pembangunan',
+    researchTime: 'Waktu riset',
+    laboratory: 'Laboratorium',
+    builder: 'Tukang',
+    day: 'Hari',
+    hours: 'Jam',
+    minutes: 'Menit',
+    calculate: 'Hitung',
+    resultBoostDurationPt1: 'Dengan boost berdurasi ',
+    resultBoostDurationPt2: ' menit, kamu dapat menyelesaikan pekerjaan dalam waktu :',
+    resultBoostDurationLeftPt1: 'Kamu mempunyai ',
+    resultBoostDurationLeftPt2: ' sisa waktu percepatan',
+  },
+};
