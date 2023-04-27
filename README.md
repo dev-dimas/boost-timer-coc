@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Clash of Clans Boost Time Calculator**
 
-## Getting Started
+This repository contains a simple web project that can provide calculations related to boost time of Laboratory or Builder in the Clash of Clans game. The website is available in both Indonesian and English languages.
+The website is built using Next JS and Tailwind CSS. Next JS is a popular React framework for building server-side rendered (SSR) and static websites, while Tailwind CSS is a utility-first CSS framework that makes it easy to style your web pages using pre-defined classes. I built this website as a means to learn Next JS.
 
-First, run the development server:
+## How to use
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+To use this website, simply visit the website URL at [here](http://boost-timer-coc.vercel.app/) and select the language you prefer at the Navbar. You will then be presented with a form where you can input the following information:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The number of minutes left for your boost duration
+- The number of research or build time in Days, Hours, and Minutes
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Once you have entered this information, click the "Calculate" button and the website will display the result of calculation.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Acknowledgements
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project was inspired by the Clash of Clans game, and was built using Next JS and Tailwind CSS. Special thanks to the developers of these technologies for making it easy to build web projects like this one.
